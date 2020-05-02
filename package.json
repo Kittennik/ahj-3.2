@@ -1,0 +1,36 @@
+{
+  "name": "ahj-3.2",
+  "version": "1.0.0",
+  "description": "AHJ Homework Task 3.2",
+  "main": "index.js",
+  "repository": "https://github.com/Kittennik/ahj-3.2.git",
+  "author": "Kate",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "fix": "eslint --fix ../ahj-3.2/"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^25.5.1",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^25.5.4",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "core-js": "3"
+  }
+}
